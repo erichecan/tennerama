@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Tennerama - Store Locations</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="components.js"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <!-- Header will be loaded here -->
+        <div id="header-container"></div>
+        
+        <!-- Main content -->
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <div class="flex min-w-72 flex-col gap-3">
+                <p class="text-[#1b0e0f] tracking-light text-[32px] font-bold leading-tight">Store Locations</p>
+                <p class="text-[#974e52] text-sm font-normal leading-normal">Explore our current locations across Canada and discover our expansion plans.</p>
+              </div>
+            </div>
+            <h2 class="text-[#1b0e0f] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Existing Locations</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7d0d1] bg-[#fcf8f8] p-4 flex-col">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-10 shrink-0"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD-G4YCSVJtAs-QFDWKgxmuSIFtn2YAML1F6Nx5AgyjsrhxI7hgWoS9PLZmwVOgISOzX_SJBNjuWkZLm8jo0DuHgpQAUgtiHYZx9BSG_YjRJ-z58U1DAfVRKNJHnwRuPFSZER2kwzCAF6Wa_klV2yvgabbr5OAbKlf3LGMqHnQ5PAdZEWs5-tPasV-wrfqN041WMgqQFjL9bF5GKUySu_5snnayjcQ_m2WRibslRjIVGxox2OjULTmNG4g5yf2Y8Dioq9Kitx5Q4ck");'
+                ></div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#1b0e0f] text-base font-bold leading-tight">Toronto</h2>
+                  <p class="text-[#974e52] text-sm font-normal leading-normal">123 Main Street</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7d0d1] bg-[#fcf8f8] p-4 flex-col">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-10 shrink-0"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBcddnevHbrGrXc6xPZ-1RtC8hqMgXaeQZ5L9XPxQxSH5HfiZlnGayV1O0jSe-pgWaat8mQFP71U5_3L5xO_I8-frjl35gQSPC89JsdQBOvSpzXCUrbMVfNFxpOKZ5nkJgyeRn-ETd6ARfPvU8_xVo_ZBPm7bdxXNWRj5OjpzciVBeCXqGwrPhn8Voe3h3891DgEvwj6XIVVrSXB901lwSZisxgTrnuDApsXnCN2EBregRKoDhguuEyRakV7bFkHUK4QKScHBsF2ys");'
+                ></div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#1b0e0f] text-base font-bold leading-tight">Vancouver</h2>
+                  <p class="text-[#974e52] text-sm font-normal leading-normal">456 Oak Avenue</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7d0d1] bg-[#fcf8f8] p-4 flex-col">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-10 shrink-0"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC6006C_u13smPBLarUQaY7FsCipcASK9Lo8lNDFKvKFTYrIfmUSIWiJ04SVSJLsGFkT2_UQ_P5imsv0fDAGdMGG4j_jJzkCF2tsE48qSRFCMgpXFa9LBeo2JGbnpLmePAEhe70NugpVSyeo6FXFQL5B21MqpAsOvwbFbDOJIqUy4NoFVEXA8D3GQIF9UY39cNwE_CB_6nbO_c80d018U2WVaim5yAKmhdZa2NxGWnmI86-YMyEMeRLa8_IKXTatl2Nd0ELwTiiqHY");'
+                ></div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#1b0e0f] text-base font-bold leading-tight">Calgary</h2>
+                  <p class="text-[#974e52] text-sm font-normal leading-normal">789 Pine Road</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7d0d1] bg-[#fcf8f8] p-4 flex-col">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-10 shrink-0"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAmpI6tg9P-uGq5dwgohn0Fbe_Tw-p7jL63QHhI1wnnDGfUOtHv7mJ9ctu-GLqLKyWin9UiQGmptZP_kD7ZKPge7-LWx7BWyBjyC3JmYOVJYSGdwyouZHDn-e9Yv8Z8UjKPgQQpvxuHP3LA_XimYnhLwLuFPA02nkLIFPz4EKPzONZ32Z8PBXz_1Wr8DqCcQ7eZHAe4q5mB_TiEIBCeDPS7ZKMmkmeOLv8lyG1Q4ayfy2mMhUtnVwpSojll_hpKb0caC0OIRFtIQPo");'
+                ></div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#1b0e0f] text-base font-bold leading-tight">Montreal</h2>
+                  <p class="text-[#974e52] text-sm font-normal leading-normal">101 Maple Drive</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7d0d1] bg-[#fcf8f8] p-4 flex-col">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-10 shrink-0"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAlW0Q-IOY5SFL9yIpJ0KXpQaftqy2gcOKK2_D9uBhbLc4FAPr7jO_sY45sf7j235vRGUufAM0cw-DyBv3DzKXRUJphYrUq396AE8Ju6SIeAv__hAbl6ZwOXXIRYYiFNAucIaZwE6aQBVn6TMulL9UxtyOcY6nvb9QW9JxYjXN-sK_ya8UiIfY6MqPcOsm3L1e3fivdjHktCZ4pTgf7MJXaHyp7Wl0LluEOaHW4_CJvIGPw_iIIae2mm8uhqGOFjKfTiI8rKw9nZ00");'
+                ></div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#1b0e0f] text-base font-bold leading-tight">Edmonton</h2>
+                  <p class="text-[#974e52] text-sm font-normal leading-normal">222 Cedar Lane</p>
+                </div>
+              </div>
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7d0d1] bg-[#fcf8f8] p-4 flex-col">
+                <div
+                  class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg w-10 shrink-0"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDDcNxT5IDMiWmimYRiD8hIyT9TEnRmcn0rSKQ3CnBzNXgrGjzlGPXxLHOWcmi9p_rizP-LBCX2vk0_KcgP-abIABHwjBBCDlITBb7twjzwQrIrk_0e79CREX7UlkPPP-GpMGkVAN_VfDL4l6pWwSq-QZzBkxTHqEd5q6j8yIA5uVs-3kxHI3b2eNV0d3pytfwrTdPfuK4fB5zbCuI95ppXPGU2BbIUaGGwOdEvXQUOhX-4HS702FVJsDpGROVkxRIos9CquAT5jjs");'
+                ></div>
+                <div class="flex flex-col gap-1">
+                  <h2 class="text-[#1b0e0f] text-base font-bold leading-tight">Ottawa</h2>
+                  <p class="text-[#974e52] text-sm font-normal leading-normal">333 Birch Court</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#1b0e0f] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Expansion Plans</h2>
+            <p class="text-[#1b0e0f] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Tennerama is rapidly expanding across Canada. We plan to open 50 new stores by 2025, focusing on Ontario and British Columbia. Stay tuned for updates on new
+              locations!
+            </p>
+          </div>
+        </div>
+
+        <!-- Footer will be loaded here -->
+        <div id="footer-container"></div>
+      </div>
+    </div>
+  </body>
+</html>

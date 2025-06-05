@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Tennerama - Franchise Investment</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="components.js"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcf8f8] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <!-- Header will be loaded here -->
+        <div id="header-container"></div>
+        
+        <!-- Main content -->
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <h2 class="text-[#1b0e0f] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Investment Details</h2>
+            <div class="px-4 py-3 @container">
+              <div class="flex overflow-hidden rounded-xl border border-[#e7d0d1] bg-[#fcf8f8]">
+                <table class="flex-1">
+                  <thead>
+                    <tr class="bg-[#fcf8f8]">
+                      <th class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-120 px-4 py-3 text-left text-[#1b0e0f] w-[400px] text-sm font-medium leading-normal">
+                        Investment Item
+                      </th>
+                      <th class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-240 px-4 py-3 text-left text-[#1b0e0f] w-[400px] text-sm font-medium leading-normal">
+                        Estimated Cost
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0f] text-sm font-normal leading-normal">
+                        Franchise Fee
+                      </td>
+                      <td class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-240 h-[72px] px-4 py-2 w-[400px] text-[#974e52] text-sm font-normal leading-normal">$25,000</td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0f] text-sm font-normal leading-normal">
+                        Renovation Expenses
+                      </td>
+                      <td class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-240 h-[72px] px-4 py-2 w-[400px] text-[#974e52] text-sm font-normal leading-normal">
+                        $100,000 - $200,000
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0f] text-sm font-normal leading-normal">
+                        Initial Inventory
+                      </td>
+                      <td class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-240 h-[72px] px-4 py-2 w-[400px] text-[#974e52] text-sm font-normal leading-normal">
+                        $50,000 - $100,000
+                      </td>
+                    </tr>
+                    <tr class="border-t border-t-[#e7d0d1]">
+                      <td class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-120 h-[72px] px-4 py-2 w-[400px] text-[#1b0e0f] text-sm font-normal leading-normal">
+                        Working Capital
+                      </td>
+                      <td class="table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-240 h-[72px] px-4 py-2 w-[400px] text-[#974e52] text-sm font-normal leading-normal">
+                        $25,000 - $50,000
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <style>
+                          @container(max-width:120px){.table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-120{display: none;}}
+                @container(max-width:240px){.table-bc064b71-970e-4a1d-aeb5-7931f8813c5e-column-240{display: none;}}
+              </style>
+            </div>
+            <p class="text-[#1b0e0f] text-base font-normal leading-normal pb-3 pt-1 px-4">Total Investment Range: $200,000 - $375,000</p>
+            <p class="text-[#1b0e0f] text-base font-normal leading-normal pb-3 pt-1 px-4">Special Offer: Early franchisees receive a 10% discount on the franchise fee!</p>
+          </div>
+        </div>
+
+        <!-- Footer will be loaded here -->
+        <div id="footer-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
